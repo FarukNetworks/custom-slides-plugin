@@ -1,0 +1,33 @@
+
+button#add-slide {
+    display: block;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+#slides-container {
+    margin-bottom: 20px;
+}
+
+.slide {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin: 0 0 10px;
+}
+
+button.button.remove-slide {
+    color: red;
+}
+
+.slide textarea {
+  width: 50%;
+  height: 100px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #000;
+}
